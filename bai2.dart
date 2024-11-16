@@ -10,9 +10,9 @@ void main()
 }
 
 String giaiPTBacHai(double a, double b,double c) {
-  if(a==0) {
-    if(b==0) {
-      if(c==0) {
+  if(a == 0) {
+    if(b == 0) {
+      if(c == 0) {
         return "phương trình vô số nghiệm";
       } else {
         return "phương trình vô nghiệm";
@@ -23,9 +23,9 @@ String giaiPTBacHai(double a, double b,double c) {
     }
   } else {
     double delta = b * b - 4 * a * c;
-    if (delta<0) {
+    if (delta < 0) {
       return "phương trình vô nghiệm";
-    } else if (delta==0) {
+    } else if (delta == 0) {
       double x = -b / (2 * a);
       return "Phương trình có nghiệm kép x = $x";
     } else {
