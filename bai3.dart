@@ -2,8 +2,8 @@ import 'dart:math';
 
 void main()
 {
-  int a=2;
-  int b=3;
+  int a = 2;
+  int b = 3;
   int ucln = tinhUCLN(a,b);
   int bcnn = tinhBCNN(a,b);
   print("Ước chung lớn nhất của $a và $b là $ucln");
